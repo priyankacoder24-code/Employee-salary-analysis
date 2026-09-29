@@ -1,0 +1,13 @@
+CREATE TABLE employees (
+    employee_id VARCHAR(10),
+    age INT,
+    gender VARCHAR(20),
+    department VARCHAR(50),
+    job_role VARCHAR(100),
+    education VARCHAR(50),
+    experience_years INT,
+    salary NUMERIC(12,2),
+    joining_date DATE,
+    joining_year INT,
+    experience_level VARCHAR(20)
+);
